@@ -301,7 +301,10 @@
     "yallist": "^4.0.0"
   },
   "devDependencies": {
-    "css-loader": "^6.8.1",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^5.0.0",
     "file-loader": "^6.2.0",
     "mini-css-extract-plugin": "^2.7.6",
     "optimize-css-assets-webpack-plugin": "^6.0.1",
@@ -317,7 +320,6 @@
     "src": "webpack serve --mode development --open",
     "build": "webpack serve",
     "create": "node src/scripts/create.js"
-
   },
   "author": "",
   "license": "ISC"
